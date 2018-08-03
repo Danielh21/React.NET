@@ -6,7 +6,7 @@ import { FetchData } from './components/FetchData';
 import { Counter } from './components/Counter';
 
 export default class App extends Component {
-  displayName = "Daniel Hollmann "
+  displayName = "Daniel Hollmann  "
 
   render() {
     return (
