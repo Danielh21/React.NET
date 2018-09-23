@@ -1,32 +1,30 @@
 const Styles ={
     reactContainer:{
         display: 'flex',
-        flex: 1,
         flexDirection: 'column',
         height: '100%',
-        margin: '1em, 1em 0, 1em'
     },
     headerDiv:{
       flexDirection: 'row',
-      backgroundColor: 'red',
+      border: ' 1px solid red',
       alignSelf: 'center',
       margin: '1em'
     },
     mainContainer:{
         flexDirection: 'row',
         display: 'flex',
-        margin: '1em'
+        margin: '1em',
     },
     navDiv:{
-        backgroundColor: 'green',
+        border: ' 1px solid green',
     },
     contentDiv:{
-        backgroundColor: 'blue',
-        paddingLeft: '12em'
+        border: ' 1px solid blue',
+        paddingLeft: '12em',
+        flexGrow: 1
     },
     footerDiv:{
-        backgroundColor: 'black',
-        color: 'white',
+        border: ' 1px solid black',
         display: 'flex',
         justifyContent: 'center',
         marginTop: 'auto'

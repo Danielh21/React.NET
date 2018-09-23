@@ -16,6 +16,11 @@ class Navigation extends Component {
                             Technology
                         </Link>
                     </li>
+                    <li>
+                        <Link to='about'>
+                            About Me
+                        </Link>
+                    </li>
                 </ul>
             </div>
         );
