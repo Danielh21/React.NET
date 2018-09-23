@@ -16,7 +16,7 @@ export default class Home extends Component {
         </div>
         <div id="mainContainer" className={classes.mainContainer}>
                 <div id="NavDiv" className={classes.navDiv}>
-                  This is Nav
+                  <Navigation/>
           </div>
           <div className={classes.contentDiv}>
             <Route exact path='/' component={Resume}/>
